@@ -1,0 +1,70 @@
+### Sort accounts by username in descending order
+GET http://localhost:3000/account/sorts
+Content-Type: application/json
+
+{
+  "accounts": [
+    {
+      "id": 26,
+      "username": "jake",
+      "password": "$2b$10$LbicPB3/B7jbMUEe/HkTheyeProv/Xy0dh/bPjSxgSwq11ifIxmQO",
+      "email": "jake230904@gmail.com",
+      "created_at": "2024-12-04T02:45:26.281Z",
+      "updated_at": "2024-12-04T02:45:26.281Z",
+      "state": "verified",
+      "provider": null,
+      "provider_id": null,
+      "avatar": "img/uploads/avatars/1735277041790-169916456.jpg"
+    },
+    {
+      "id": 25,
+      "username": "nam",
+      "password": "$2b$10$tfSntDgh2Fa21jRlzHHqr.ziubU5cCovEZn/yL1rlYpOlHY1Sj1ca",
+      "email": "sora205n@gmail.com",
+      "created_at": "2024-12-02T13:51:55.137Z",
+      "updated_at": "2024-12-02T13:51:55.137Z",
+      "state": "verified",
+      "provider": null,
+      "provider_id": null,
+      "avatar": null
+    },
+    {
+      "id": 33,
+      "username": "ngocle123",
+      "password": "$2b$10$ec/XCkoRR04wOkxfTxoXFOlQ/Z5JPpiMmApy0gYojfo4pQAzbxrnK",
+      "email": "ngocle266tqt@gmail.com",
+      "created_at": "2024-12-18T08:20:42.549Z",
+      "updated_at": "2024-12-18T08:20:42.549Z",
+      "state": "verified",
+      "provider": null,
+      "provider_id": null,
+      "avatar": null
+    },
+    {
+      "id": 27,
+      "username": "22120232",
+      "password": "$2b$10$zsv4ok/8O/HFqFbfX3UWpeOTKOv8jgrNSjgZBQR94deCHfibuPQ5e",
+      "email": "n19_256@nhc.edu.vn",
+      "created_at": "2024-12-18T06:01:56.230Z",
+      "updated_at": "2024-12-18T06:01:56.230Z",
+      "state": "verified",
+      "provider": null,
+      "provider_id": null,
+      "avatar": null
+    },
+    {
+      "id": 34,
+      "username": "tuyenyeu1198",
+      "password": "$2b$10$gyd9Dk0aZA0pEvwFNWxxHONf.SO7eFBJWH1efm4NBkMdCxGWGpzpy",
+      "email": "jakeptnn@gmail.com",
+      "created_at": "2024-12-21T02:33:13.435Z",
+      "updated_at": "2024-12-21T02:33:13.435Z",
+      "state": "verified",
+      "provider": null,
+      "provider_id": null,
+      "avatar": null
+    }
+  ],
+  "sortBy": "username",
+  "order": "desc"
+}

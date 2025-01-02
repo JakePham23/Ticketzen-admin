@@ -1,0 +1,7 @@
+GET http://localhost:3000/account/results
+Content-Type: application/json
+
+{
+  "message": "successfully",
+  "email": "jake230904"
+}

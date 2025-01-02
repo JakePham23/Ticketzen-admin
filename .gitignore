@@ -1,0 +1,7 @@
+node_modules/
+.env
+.idea/
+.vercel
+**/ca.pem
+ca-certificate.crt
+

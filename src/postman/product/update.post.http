@@ -1,0 +1,8 @@
+POST http://localhost:3000/products/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "description": "Eddie Brock and Venom must make a devastating decision as they're pursued by a mysterious military man and alien monsters from Venom's home world.",
+  "price": 500
+}
